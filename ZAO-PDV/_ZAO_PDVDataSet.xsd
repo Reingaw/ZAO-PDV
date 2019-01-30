@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="_ZAO_PDVDataSet" targetNamespace="http://tempuri.org/_ZAO_PDVDataSet.xsd" xmlns:mstns="http://tempuri.org/_ZAO_PDVDataSet.xsd" xmlns="http://tempuri.org/_ZAO_PDVDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ZAO_PDVConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ZAO_PDVConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ZAO_PDV.Properties.Settings.GlobalReference.Default.ZAO_PDVConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="_ZAO_PDVDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="_ZAO_PDVDataSet" msprop:Generator_UserDSName="_ZAO_PDVDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tb_User" msprop:Generator_TableClassName="tb_UserDataTable" msprop:Generator_TableVarName="tabletb_User" msprop:Generator_RowChangedName="tb_UserRowChanged" msprop:Generator_TablePropName="tb_User" msprop:Generator_RowDeletingName="tb_UserRowDeleting" msprop:Generator_RowChangingName="tb_UserRowChanging" msprop:Generator_RowEvHandlerName="tb_UserRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_UserRowDeleted" msprop:Generator_RowClassName="tb_UserRow" msprop:Generator_UserTableName="tb_User" msprop:Generator_RowEvArgName="tb_UserRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="user_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnuser_id" msprop:Generator_ColumnPropNameInRow="user_id" msprop:Generator_ColumnPropNameInTable="user_idColumn" msprop:Generator_UserColumnName="user_id" type="xs:int" />
+              <xs:element name="user_name" msprop:Generator_ColumnVarNameInTable="columnuser_name" msprop:Generator_ColumnPropNameInRow="user_name" msprop:Generator_ColumnPropNameInTable="user_nameColumn" msprop:Generator_UserColumnName="user_name" type="xs:string" />
+              <xs:element name="user_level" msprop:Generator_ColumnVarNameInTable="columnuser_level" msprop:Generator_ColumnPropNameInRow="user_level" msprop:Generator_ColumnPropNameInTable="user_levelColumn" msprop:Generator_UserColumnName="user_level" type="xs:string" />
+              <xs:element name="user_password" msprop:Generator_ColumnVarNameInTable="columnuser_password" msprop:Generator_ColumnPropNameInRow="user_password" msprop:Generator_ColumnPropNameInTable="user_passwordColumn" msprop:Generator_UserColumnName="user_password" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_customer" msprop:Generator_TableClassName="tb_customerDataTable" msprop:Generator_TableVarName="tabletb_customer" msprop:Generator_RowChangedName="tb_customerRowChanged" msprop:Generator_TablePropName="tb_customer" msprop:Generator_RowDeletingName="tb_customerRowDeleting" msprop:Generator_RowChangingName="tb_customerRowChanging" msprop:Generator_RowEvHandlerName="tb_customerRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_customerRowDeleted" msprop:Generator_RowClassName="tb_customerRow" msprop:Generator_UserTableName="tb_customer" msprop:Generator_RowEvArgName="tb_customerRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customer_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columncustomer_id" msprop:Generator_ColumnPropNameInRow="customer_id" msprop:Generator_ColumnPropNameInTable="customer_idColumn" msprop:Generator_UserColumnName="customer_id" type="xs:int" />
+              <xs:element name="customer_fone" msprop:Generator_ColumnVarNameInTable="columncustomer_fone" msprop:Generator_ColumnPropNameInRow="customer_fone" msprop:Generator_ColumnPropNameInTable="customer_foneColumn" msprop:Generator_UserColumnName="customer_fone" type="xs:string" />
+              <xs:element name="customer_name" msprop:Generator_ColumnVarNameInTable="columncustomer_name" msprop:Generator_ColumnPropNameInRow="customer_name" msprop:Generator_ColumnPropNameInTable="customer_nameColumn" msprop:Generator_UserColumnName="customer_name" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_adress" msprop:Generator_TableClassName="tb_adressDataTable" msprop:Generator_TableVarName="tabletb_adress" msprop:Generator_RowChangedName="tb_adressRowChanged" msprop:Generator_TablePropName="tb_adress" msprop:Generator_RowDeletingName="tb_adressRowDeleting" msprop:Generator_RowChangingName="tb_adressRowChanging" msprop:Generator_RowEvHandlerName="tb_adressRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_adressRowDeleted" msprop:Generator_RowClassName="tb_adressRow" msprop:Generator_UserTableName="tb_adress" msprop:Generator_RowEvArgName="tb_adressRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="adress_street" msprop:Generator_ColumnVarNameInTable="columnadress_street" msprop:Generator_ColumnPropNameInRow="adress_street" msprop:Generator_ColumnPropNameInTable="adress_streetColumn" msprop:Generator_UserColumnName="adress_street" type="xs:string" minOccurs="0" />
+              <xs:element name="adress_number" msprop:Generator_ColumnVarNameInTable="columnadress_number" msprop:Generator_ColumnPropNameInRow="adress_number" msprop:Generator_ColumnPropNameInTable="adress_numberColumn" msprop:Generator_UserColumnName="adress_number" type="xs:string" minOccurs="0" />
+              <xs:element name="adress_complement" msprop:Generator_ColumnVarNameInTable="columnadress_complement" msprop:Generator_ColumnPropNameInRow="adress_complement" msprop:Generator_ColumnPropNameInTable="adress_complementColumn" msprop:Generator_UserColumnName="adress_complement" type="xs:string" minOccurs="0" />
+              <xs:element name="adress_reference" msprop:Generator_ColumnVarNameInTable="columnadress_reference" msprop:Generator_ColumnPropNameInRow="adress_reference" msprop:Generator_ColumnPropNameInTable="adress_referenceColumn" msprop:Generator_UserColumnName="adress_reference" type="xs:string" minOccurs="0" />
+              <xs:element name="adress_customer_id" msprop:Generator_ColumnVarNameInTable="columnadress_customer_id" msprop:Generator_ColumnPropNameInRow="adress_customer_id" msprop:Generator_ColumnPropNameInTable="adress_customer_idColumn" msprop:Generator_UserColumnName="adress_customer_id" type="xs:int" minOccurs="0" />
+              <xs:element name="adress_observation" msprop:Generator_ColumnVarNameInTable="columnadress_observation" msprop:Generator_ColumnPropNameInRow="adress_observation" msprop:Generator_ColumnPropNameInTable="adress_observationColumn" msprop:Generator_UserColumnName="adress_observation" type="xs:string" minOccurs="0" />
+              <xs:element name="adress_neighborhood" msprop:Generator_ColumnVarNameInTable="columnadress_neighborhood" msprop:Generator_ColumnPropNameInRow="adress_neighborhood" msprop:Generator_ColumnPropNameInTable="adress_neighborhoodColumn" msprop:Generator_UserColumnName="adress_neighborhood" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_category" msprop:Generator_TableClassName="tb_categoryDataTable" msprop:Generator_TableVarName="tabletb_category" msprop:Generator_RowChangedName="tb_categoryRowChanged" msprop:Generator_TablePropName="tb_category" msprop:Generator_RowDeletingName="tb_categoryRowDeleting" msprop:Generator_RowChangingName="tb_categoryRowChanging" msprop:Generator_RowEvHandlerName="tb_categoryRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_categoryRowDeleted" msprop:Generator_RowClassName="tb_categoryRow" msprop:Generator_UserTableName="tb_category" msprop:Generator_RowEvArgName="tb_categoryRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="category_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columncategory_id" msprop:Generator_ColumnPropNameInRow="category_id" msprop:Generator_ColumnPropNameInTable="category_idColumn" msprop:Generator_UserColumnName="category_id" type="xs:int" />
+              <xs:element name="category_name" msprop:Generator_ColumnVarNameInTable="columncategory_name" msprop:Generator_ColumnPropNameInRow="category_name" msprop:Generator_ColumnPropNameInTable="category_nameColumn" msprop:Generator_UserColumnName="category_name" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_product" msprop:Generator_TableClassName="tb_productDataTable" msprop:Generator_TableVarName="tabletb_product" msprop:Generator_RowChangedName="tb_productRowChanged" msprop:Generator_TablePropName="tb_product" msprop:Generator_RowDeletingName="tb_productRowDeleting" msprop:Generator_RowChangingName="tb_productRowChanging" msprop:Generator_RowEvHandlerName="tb_productRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_productRowDeleted" msprop:Generator_RowClassName="tb_productRow" msprop:Generator_UserTableName="tb_product" msprop:Generator_RowEvArgName="tb_productRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="product_reference_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnproduct_reference_id" msprop:Generator_ColumnPropNameInRow="product_reference_id" msprop:Generator_ColumnPropNameInTable="product_reference_idColumn" msprop:Generator_UserColumnName="product_reference_id" type="xs:int" />
+              <xs:element name="product_description" msprop:Generator_ColumnVarNameInTable="columnproduct_description" msprop:Generator_ColumnPropNameInRow="product_description" msprop:Generator_ColumnPropNameInTable="product_descriptionColumn" msprop:Generator_UserColumnName="product_description" type="xs:string" minOccurs="0" />
+              <xs:element name="product_category" msprop:Generator_ColumnVarNameInTable="columnproduct_category" msprop:Generator_ColumnPropNameInRow="product_category" msprop:Generator_ColumnPropNameInTable="product_categoryColumn" msprop:Generator_UserColumnName="product_category" type="xs:int" minOccurs="0" />
+              <xs:element name="product_manufacturer" msprop:Generator_ColumnVarNameInTable="columnproduct_manufacturer" msprop:Generator_ColumnPropNameInRow="product_manufacturer" msprop:Generator_ColumnPropNameInTable="product_manufacturerColumn" msprop:Generator_UserColumnName="product_manufacturer" type="xs:int" minOccurs="0" />
+              <xs:element name="product_cost_price" msprop:Generator_ColumnVarNameInTable="columnproduct_cost_price" msprop:Generator_ColumnPropNameInRow="product_cost_price" msprop:Generator_ColumnPropNameInTable="product_cost_priceColumn" msprop:Generator_UserColumnName="product_cost_price" type="xs:string" minOccurs="0" />
+              <xs:element name="product_sell_price" msprop:Generator_ColumnVarNameInTable="columnproduct_sell_price" msprop:Generator_ColumnPropNameInRow="product_sell_price" msprop:Generator_ColumnPropNameInTable="product_sell_priceColumn" msprop:Generator_UserColumnName="product_sell_price" type="xs:string" minOccurs="0" />
+              <xs:element name="product_stock" msprop:Generator_ColumnVarNameInTable="columnproduct_stock" msprop:Generator_ColumnPropNameInRow="product_stock" msprop:Generator_ColumnPropNameInTable="product_stockColumn" msprop:Generator_UserColumnName="product_stock" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_manufacturer" msprop:Generator_TableClassName="tb_manufacturerDataTable" msprop:Generator_TableVarName="tabletb_manufacturer" msprop:Generator_RowChangedName="tb_manufacturerRowChanged" msprop:Generator_TablePropName="tb_manufacturer" msprop:Generator_RowDeletingName="tb_manufacturerRowDeleting" msprop:Generator_RowChangingName="tb_manufacturerRowChanging" msprop:Generator_RowEvHandlerName="tb_manufacturerRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_manufacturerRowDeleted" msprop:Generator_RowClassName="tb_manufacturerRow" msprop:Generator_UserTableName="tb_manufacturer" msprop:Generator_RowEvArgName="tb_manufacturerRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="manufacturer_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnmanufacturer_id" msprop:Generator_ColumnPropNameInRow="manufacturer_id" msprop:Generator_ColumnPropNameInTable="manufacturer_idColumn" msprop:Generator_UserColumnName="manufacturer_id" type="xs:int" />
+              <xs:element name="manufacturer_name" msprop:Generator_ColumnVarNameInTable="columnmanufacturer_name" msprop:Generator_ColumnPropNameInRow="manufacturer_name" msprop:Generator_ColumnPropNameInTable="manufacturer_nameColumn" msprop:Generator_UserColumnName="manufacturer_name" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_pre_order" msprop:Generator_TableClassName="tb_pre_orderDataTable" msprop:Generator_TableVarName="tabletb_pre_order" msprop:Generator_RowChangedName="tb_pre_orderRowChanged" msprop:Generator_TablePropName="tb_pre_order" msprop:Generator_RowDeletingName="tb_pre_orderRowDeleting" msprop:Generator_RowChangingName="tb_pre_orderRowChanging" msprop:Generator_RowEvHandlerName="tb_pre_orderRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_pre_orderRowDeleted" msprop:Generator_RowClassName="tb_pre_orderRow" msprop:Generator_UserTableName="tb_pre_order" msprop:Generator_RowEvArgName="tb_pre_orderRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pre_order_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnpre_order_id" msprop:Generator_ColumnPropNameInRow="pre_order_id" msprop:Generator_ColumnPropNameInTable="pre_order_idColumn" msprop:Generator_UserColumnName="pre_order_id" type="xs:int" />
+              <xs:element name="product_id" msprop:Generator_ColumnVarNameInTable="columnproduct_id" msprop:Generator_ColumnPropNameInRow="product_id" msprop:Generator_ColumnPropNameInTable="product_idColumn" msprop:Generator_UserColumnName="product_id" type="xs:int" />
+              <xs:element name="customer_id" msprop:Generator_ColumnVarNameInTable="columncustomer_id" msprop:Generator_ColumnPropNameInRow="customer_id" msprop:Generator_ColumnPropNameInTable="customer_idColumn" msprop:Generator_UserColumnName="customer_id" type="xs:int" minOccurs="0" />
+              <xs:element name="salesperson_id" msprop:Generator_ColumnVarNameInTable="columnsalesperson_id" msprop:Generator_ColumnPropNameInRow="salesperson_id" msprop:Generator_ColumnPropNameInTable="salesperson_idColumn" msprop:Generator_UserColumnName="salesperson_id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_order" msprop:Generator_TableClassName="tb_orderDataTable" msprop:Generator_TableVarName="tabletb_order" msprop:Generator_RowChangedName="tb_orderRowChanged" msprop:Generator_TablePropName="tb_order" msprop:Generator_RowDeletingName="tb_orderRowDeleting" msprop:Generator_RowChangingName="tb_orderRowChanging" msprop:Generator_RowEvHandlerName="tb_orderRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_orderRowDeleted" msprop:Generator_RowClassName="tb_orderRow" msprop:Generator_UserTableName="tb_order" msprop:Generator_RowEvArgName="tb_orderRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="order_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnorder_id" msprop:Generator_ColumnPropNameInRow="order_id" msprop:Generator_ColumnPropNameInTable="order_idColumn" msprop:Generator_UserColumnName="order_id" type="xs:int" />
+              <xs:element name="product_id" msprop:Generator_ColumnVarNameInTable="columnproduct_id" msprop:Generator_ColumnPropNameInRow="product_id" msprop:Generator_ColumnPropNameInTable="product_idColumn" msprop:Generator_UserColumnName="product_id" type="xs:int" />
+              <xs:element name="customer_id" msprop:Generator_ColumnVarNameInTable="columncustomer_id" msprop:Generator_ColumnPropNameInRow="customer_id" msprop:Generator_ColumnPropNameInTable="customer_idColumn" msprop:Generator_UserColumnName="customer_id" type="xs:int" minOccurs="0" />
+              <xs:element name="salesperson_id" msprop:Generator_ColumnVarNameInTable="columnsalesperson_id" msprop:Generator_ColumnPropNameInRow="salesperson_id" msprop:Generator_ColumnPropNameInTable="salesperson_idColumn" msprop:Generator_UserColumnName="salesperson_id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tb_salesperson" msprop:Generator_TableClassName="tb_salespersonDataTable" msprop:Generator_TableVarName="tabletb_salesperson" msprop:Generator_RowChangedName="tb_salespersonRowChanged" msprop:Generator_TablePropName="tb_salesperson" msprop:Generator_RowDeletingName="tb_salespersonRowDeleting" msprop:Generator_RowChangingName="tb_salespersonRowChanging" msprop:Generator_RowEvHandlerName="tb_salespersonRowChangeEventHandler" msprop:Generator_RowDeletedName="tb_salespersonRowDeleted" msprop:Generator_RowClassName="tb_salespersonRow" msprop:Generator_UserTableName="tb_salesperson" msprop:Generator_RowEvArgName="tb_salespersonRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="salesperson_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnsalesperson_id" msprop:Generator_ColumnPropNameInRow="salesperson_id" msprop:Generator_ColumnPropNameInTable="salesperson_idColumn" msprop:Generator_UserColumnName="salesperson_id" type="xs:int" />
+              <xs:element name="salesperson_name" msprop:Generator_ColumnVarNameInTable="columnsalesperson_name" msprop:Generator_ColumnPropNameInRow="salesperson_name" msprop:Generator_ColumnPropNameInTable="salesperson_nameColumn" msprop:Generator_UserColumnName="salesperson_name" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="tb_UserKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tb_User" />
+      <xs:field xpath="mstns:user_id" />
+    </xs:unique>
+    <xs:unique name="tb_customerKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tb_customer" />
+      <xs:field xpath="mstns:customer_id" />
+    </xs:unique>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:tb_customer" />
+      <xs:field xpath="mstns:customer_fone" />
+    </xs:unique>
+    <xs:unique name="tb_category_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tb_category" />
+      <xs:field xpath="mstns:category_id" />
+    </xs:unique>
+    <xs:unique name="tb_product_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tb_product" />
+      <xs:field xpath="mstns:product_reference_id" />
+    </xs:unique>
+    <xs:unique name="tb_manufacturer_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tb_manufacturer" />
+      <xs:field xpath="mstns:manufacturer_id" />
+    </xs:unique>
+    <xs:unique name="tb_pre_order_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tb_pre_order" />
+      <xs:field xpath="mstns:pre_order_id" />
+    </xs:unique>
+    <xs:unique name="Constraint2">
+      <xs:selector xpath=".//mstns:tb_pre_order" />
+      <xs:field xpath="mstns:product_id" />
+    </xs:unique>
+    <xs:unique name="tb_order_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tb_order" />
+      <xs:field xpath="mstns:order_id" />
+    </xs:unique>
+    <xs:unique name="tb_salesperson_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tb_salesperson" />
+      <xs:field xpath="mstns:salesperson_id" />
+    </xs:unique>
+    <xs:keyref name="FK_tb_product_tb_order" refer="tb_product_Constraint1" msprop:rel_Generator_UserChildTable="tb_order" msprop:rel_Generator_ChildPropName="Gettb_orderRows" msprop:rel_Generator_UserRelationName="FK_tb_product_tb_order" msprop:rel_Generator_RelationVarName="relationFK_tb_product_tb_order" msprop:rel_Generator_UserParentTable="tb_product" msprop:rel_Generator_ParentPropName="tb_productRow">
+      <xs:selector xpath=".//mstns:tb_order" />
+      <xs:field xpath="mstns:product_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_tb_customer_tb_order" refer="tb_customerKey1" msprop:rel_Generator_UserChildTable="tb_order" msprop:rel_Generator_ChildPropName="Gettb_orderRows" msprop:rel_Generator_UserRelationName="FK_tb_customer_tb_order" msprop:rel_Generator_RelationVarName="relationFK_tb_customer_tb_order" msprop:rel_Generator_UserParentTable="tb_customer" msprop:rel_Generator_ParentPropName="tb_customerRow">
+      <xs:selector xpath=".//mstns:tb_order" />
+      <xs:field xpath="mstns:customer_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_tb_salesperson_tb_order" refer="tb_salesperson_Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:tb_order" />
+      <xs:field xpath="mstns:salesperson_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_tb_product_tb_pre_order" refer="tb_product_Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:tb_pre_order" />
+      <xs:field xpath="mstns:product_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_tb_customer_tb_pre_order" refer="tb_customerKey1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:tb_pre_order" />
+      <xs:field xpath="mstns:customer_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_tb_salesperson_tb_pre_order" refer="tb_salesperson_Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:tb_pre_order" />
+      <xs:field xpath="mstns:salesperson_id" />
+    </xs:keyref>
+    <xs:keyref name="FK_tb_category_tb_product" refer="tb_category_Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:tb_product" />
+      <xs:field xpath="mstns:product_category" />
+    </xs:keyref>
+    <xs:keyref name="FK_tb_manufacturer_tb_product" refer="tb_manufacturer_Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:tb_product" />
+      <xs:field xpath="mstns:product_manufacturer" />
+    </xs:keyref>
+    <xs:keyref name="FK_tb_customer_tb_adress" refer="tb_customerKey1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:tb_adress" />
+      <xs:field xpath="mstns:adress_customer_id" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>
